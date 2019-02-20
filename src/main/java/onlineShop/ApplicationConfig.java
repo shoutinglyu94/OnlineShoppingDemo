@@ -29,7 +29,7 @@ public class ApplicationConfig {
 	public DataSource dataSource() {
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://localhost:3307/laioffer_ecommerce?serverTimezone=UTC");
+		dataSource.setUrl("jdbc:mysql:");
 		dataSource.setUsername("root");
 		dataSource.setPassword("root");
 
